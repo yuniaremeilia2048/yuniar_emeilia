@@ -1,0 +1,71 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.nama-web{
+    font-size: 30px;
+    color: rgb(104, 2, 2);
+    margin: 0;
+}
+
+ul,li{
+    display: flex;
+    flex: 5;
+    list-style-type: none;
+    flex-direction: row;
+    background-color: rgb(104, 2, 2);
+    margin-bottom: 5x;
+    border-radius: 5px;
+}
+
+li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+.header{
+    margin-top: 50px;
+    font-size: 27px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(104, 2, 2);
+}
+
+p{
+    margin: 5px;
+}
+
+.date{
+    color: gray;
+    font-size: 15px;
+}
+
+img{
+    display: inline;
+    width: 92vh;
+    margin-left: 5px;
+}
+
+.konten{
+    font-size: 19px;
+}
+
+footer{
+    color: rgb(104, 2, 2);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    ul,li {
+        display: inline-block;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
